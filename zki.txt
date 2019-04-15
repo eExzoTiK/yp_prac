@@ -1,8 +1,0 @@
-uses 
-windows;
-SellExecute;
-begin
-if timeToStr(time)='15:30' then
-begin
-ShellExecute(Handle,  'open', 'http:vk.com', nil, nil, SW_SNOWNORMAL); //   'C:\Windows\notepad.exe' 'c:/text.txt'
-end;
